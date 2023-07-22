@@ -1,0 +1,12 @@
+import os
+
+# OAuth Client ID/Secret
+OAUTH_CLIENT_ID = os.getenv('OAUTH_CLIENT_ID')
+OAUTH_CLIENT_SECRET = os.getenv('OAUTH_CLIENT_SECRET')
+
+# SSO Service URL
+SSO_SERVICE_URL = os.getenv('SSO_SERVICE_URL')
+
+# SAML Issuer/Identity Provider URL
+SAML_ISSUER_URL = os.getenv('SAML_ISSUER_URL')
+SAML_IDENTITY_PROVIDER_URL = os.getenv('SAML_IDENTITY_PROVIDER_URL')
